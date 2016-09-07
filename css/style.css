@@ -347,7 +347,7 @@ img.icon-logo {
   max-width: 700px;
   position: absolute;
   right: -200px;
-  top: 50%; 
+  top: 50%;
   transform: translateY(-50%);
 }
 
@@ -377,3 +377,5 @@ img.icon-logo {
 .block-signup input[type="submit"] {
   -webkit-appearance: none;
 }
+
+.test{ display: static; }
