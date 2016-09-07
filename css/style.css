@@ -154,7 +154,10 @@ img.icon-logo {
 .block-1 {
   text-align: center;
   padding-top: 75px;
-  overflow: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+  .block-1 { overflow: hidden; }
 }
 
 .block-1 .logo {
@@ -344,18 +347,19 @@ img.icon-logo {
   max-width: 700px;
   position: absolute;
   right: -200px;
-  top: 0;
+  top: 50%; 
+  transform: translateY(-50%);
 }
 
 @media only screen and (max-width: 1100px) {
-  .block-7 img { max-width: 600px; top: 50%; transform: translateY(-50%); }
+  .block-7 img { max-width: 600px; }
 }
 
 
 @media only screen and (max-width: 900px) {
   .block-7 .container-default { text-align: center; }
   .block-7 h1 { display: inline-block; padding-top: 50px; }
-  .block-7 img { position: static; margin: 0 auto; right: initial; display: block; max-width: 500px; width: 100%;}
+  .block-7 img { position: static; margin: 0 auto; right: initial; display: block; max-width: 500px; width: 100%; transform: none; }
 }
 
 /* Signup block */
