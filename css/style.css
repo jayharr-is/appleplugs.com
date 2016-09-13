@@ -367,11 +367,6 @@ img.icon-logo {
   text-align: center;
   background: #eee;
   padding: 30px 0 80px 0;
-  background: #f7f7f7; /* Old browsers */
-  background: -moz-linear-gradient(top,  #f7f7f7 0%, #e6e6e6 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #f7f7f7 0%,#e6e6e6 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #f7f7f7 0%,#e6e6e6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-9 */
 }
 
 .block-signup input[type="submit"] {
